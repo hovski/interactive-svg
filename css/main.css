@@ -1,0 +1,25 @@
+#left-ear,
+#right-ear {
+transition: all 400ms linear;
+}
+
+#bear:hover #left-ear,
+#bear:hover #right-ear {
+  transform: translateY(-10px);
+}
+
+
+#left-eye,
+#right-eye {
+animation: eye-move 700ms infinite alternate linear;
+}
+
+@keyframes eye-move {
+  0% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(-10px);
+  }
+}
