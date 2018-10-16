@@ -1,6 +1,6 @@
 #left-ear,
 #right-ear {
-transition: all 400ms linear;
+  transition: all 400ms linear;
 }
 
 #bear:hover #left-ear,
@@ -11,7 +11,7 @@ transition: all 400ms linear;
 
 #left-eye,
 #right-eye {
-animation: eye-move 700ms infinite alternate linear;
+  animation: eye-move 700ms infinite alternate linear;
 }
 
 @keyframes eye-move {
